@@ -1,38 +1,66 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.controls {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.controls label {
+  margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.kanban-board {
   display: flex;
-  flex-direction: column;
+  overflow-x: auto;
+}
+
+.ticket-column {
+  flex: 0 0 auto;
+  width: 300px; /* Set your desired column width */
+  margin-right: 20px; /* Adjust spacing between columns */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ticket-card {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.id {
+  font-size: 12px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-photo img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.tag {
+  font-size: 14px;
+  color: #666;
 }
