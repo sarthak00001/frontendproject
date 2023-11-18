@@ -1,0 +1,78 @@
+/* TicketCard.css */
+
+.ticket-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .ticket-card h3 {
+    margin-bottom: 10px;
+    color: grey;
+  }
+  
+  .ticket-card p {
+    margin: 5px 0;
+  }
+  
+  .user-circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .inactive {
+    background-color: rgba(83, 176, 247, 0.5);
+    color: #000;
+  }
+  
+  .inactive-dot {
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .card_card__FoG0a {
+    /* Add any specific styles for the outer card wrapper */
+  }
+  
+  .card_header__3a2Mp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card_title__57kGS {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card_title__57kGS svg {
+    margin-right: 5px;
+  }
+  
+  .card_featureSection__NQqb9 {
+    /* Add any specific styles for the feature section */
+  }
+  
+  .card_feature__Vbl0f {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card_feature__Vbl0f svg {
+    margin-right: 5px;
+  }
+  

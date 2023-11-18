@@ -1,4 +1,5 @@
 import React from 'react';
+import './TicketCard.css';
 
 const TicketCard = ({ ticket }) => {
   return (
